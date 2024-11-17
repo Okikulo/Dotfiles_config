@@ -1,0 +1,5 @@
+
+[language-server.c]
+command = "clangd"
+
+
