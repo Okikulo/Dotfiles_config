@@ -16,8 +16,20 @@ alias locki="swaylock -i ~/wallpapers/mountains.png --scaling fill"
 alias yz="yazi"
 alias dotfile="/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME"
 
-# Custom export (?)
-export GTK_IM_MODULE=ibus
-export QT_IM_MODULE=ibus
-export XMODIFIERS=@im=ibus
+# Custom enviroment variables
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS=@im=fcitx
 
+# Directory Persistance Yazi
+function zi() {
+    tmp="$(mktemp)"
+    yazi --cwd-file "${tmp}"
+    if [[ -f "${tmp}" ]]; then
+        dir="$(cat "${tmp}")"
+        rm -f "${tmp}"
+        if [[ -d "${dir}" ]]; then
+            cd "${dir}"
+        fi
+    fi
+}
