@@ -2,4 +2,18 @@
 [language-server.c]
 command = "clangd"
 
+[[language]]
+name = "python"
+scope = "source.python"
+injection-regex = "python"
+file-types = ["py"]
+shebangs = ["python"]
+roots = ["pyproject.toml", "setup.py", "Poetry.lock", "requirements.txt"]
+language-servers = [ "pylsp" ]
+formatter = { command = "black", args = ["-", "--quiet"] }
 
+[language-server.pylsp]
+command = "pylsp"
+
+[language-server.pylsp.config.pylsp]
+plugins = { pycodestyle = { enabled = true }, mccabe = { enabled = true }, pyflakes = { enabled = true }, pylint = { enabled = true }, rope_completion = { enabled = true }, black = { enabled = true }, mypy = { enabled = true } }

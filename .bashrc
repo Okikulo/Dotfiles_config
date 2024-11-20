@@ -13,7 +13,7 @@ export PATH="$PATH:$HOME/usr/bin/helix:$HOME/.cargo/bin"
 
 # Custom alias
 alias locki="swaylock -i ~/wallpapers/mountains.png --scaling fill"
-alias yz="yazi"
+alias ya="yazi"
 alias dotfile="/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME"
 
 # Custom enviroment variables
@@ -33,3 +33,6 @@ function zi() {
         fi
     fi
 }
+
+# Created by `pipx` on 2024-11-20 12:23:58
+export PATH="$PATH:/home/oki/.local/bin"

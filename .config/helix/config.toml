@@ -1,4 +1,4 @@
-theme = "iroaseta"
+theme = "monokai_pro_spectrum"
 
 [editor]
 line-number = "relative"
