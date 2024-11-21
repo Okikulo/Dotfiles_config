@@ -1,3 +1,3 @@
-2024/11/18-20:26:18.383 e64 Reusing MANIFEST /home/oki/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
-2024/11/18-20:26:18.383 e64 Recovering log #18
-2024/11/18-20:26:18.419 e64 Reusing old log /home/oki/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000018.log 
+2024/11/21-19:25:07.907 276c Reusing MANIFEST /home/oki/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/MANIFEST-000001
+2024/11/21-19:25:07.908 276c Recovering log #18
+2024/11/21-19:25:08.013 276c Reusing old log /home/oki/.config/obsidian/IndexedDB/app_obsidian.md_0.indexeddb.leveldb/000018.log 

@@ -1,3 +1,3 @@
-2024/11/18-20:26:16.157 e63 Reusing MANIFEST /home/oki/.config/obsidian/Local Storage/leveldb/MANIFEST-000001
-2024/11/18-20:26:16.163 e63 Recovering log #3
-2024/11/18-20:26:16.164 e63 Reusing old log /home/oki/.config/obsidian/Local Storage/leveldb/000003.log 
+2024/11/21-19:25:01.425 2705 Reusing MANIFEST /home/oki/.config/obsidian/Local Storage/leveldb/MANIFEST-000001
+2024/11/21-19:25:01.897 2705 Recovering log #3
+2024/11/21-19:25:01.935 2705 Reusing old log /home/oki/.config/obsidian/Local Storage/leveldb/000003.log 
